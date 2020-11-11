@@ -64,7 +64,10 @@ Make a small picture linked to the bigger version of it by using nested MD.
 <p class="para">
     This is in a p tag & styled by CSS.
 </p>
+
+🔷 GitHub is not showing the custom CSS edits. Boo!
 <style>
+
     p.para {
         color: #ddd;
         font-size: 20px;
@@ -119,7 +122,7 @@ The = is not working in this app 😐
 
 ---
 
-===
+⬆ is an example of horizontal line(---). Doesn't working in (===).
 
 ## Blockquote
 
