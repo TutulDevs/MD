@@ -2,7 +2,7 @@
 
 Dark mode is a necessary feature in a modern website. It not only makes the site look cool, but gives the audience an option to feel comfortable too.
 
-In this tutorial we are going to build a simple web page with the option to switch between dark and light color theme. It'll require very basic knowledge of JavaScript and DOM. If you don't know JavaScript, don't fret. It's only one line of code and I'll clarify how that works. Take a look at the [end result](https://all-js.netlify.app/34-darkMode).
+In this tutorial we are going to build a simple web page with the option to switch between dark and light color theme. It'll require very basic knowledge of JavaScript and DOM. If you don't know JavaScript, don't fret. It's only one line of code and I'll clarify how that works. Take a look at the [end result](https://all-js.netlify.app/34-darkmode/fixgradtrans).
 
 >
 >  This project is a part of my JavaScript [mega project](https://all-js.netlify.app).
