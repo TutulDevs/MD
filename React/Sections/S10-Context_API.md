@@ -1,7 +1,7 @@
 # Section 10 | Side Effects, Reducers, Context API 
 
 
-### 120 -  | Context API
+### 120 - 125 | Context API
 
 * For bigger apps, lifting states and fetching from `props` can be lots of work and many components may not use the `props` but access it to lift that to the needed component.
 * There comes the React behind the scene's storage, `Context API`. It can keep the state's value and use it only in the specific component where it needed.
