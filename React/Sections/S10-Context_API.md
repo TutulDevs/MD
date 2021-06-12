@@ -14,7 +14,7 @@
 * Then go to the parent component where it needs and wrap the components with `<NamedContext.Provider>` and give it a value prop to update or interact with the state.
 
 ```js
-    <AuthContext.Providervalue={{isLoggedIn,}}>
+    <AuthContext.Provider value={{isLoggedIn,}}>
      	// Some components
     </AuthContext.Provider>
 ```
@@ -45,7 +45,7 @@
 
 * Use the `ctx` param instead of `props`.
 
-**Way 1**
+**Way 2**
 
 * We can import `useContext` from React and pass the `NamedContext` inside it and store it's value in a variable.
 
@@ -60,7 +60,7 @@
 * We can create a function inside the context to pass all the value and the `props.children` to make the code leaner. This way all the data stored in the central `<App />` component and we can use it whenever or whereever we need it.
 
 
-** Context Limitations** 
+**Context Limitations** 
 
 * Context is not good for state changes that happen very frequently, like multiple in a second. 
 * Context shouldn't replace all component communication and `props`.
