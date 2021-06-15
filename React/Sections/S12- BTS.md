@@ -41,7 +41,17 @@ We are going to learn three main things.
   const togglePara = useCallback( () => setShow( prev => !prev), [] );
 ```
 
+## 156 - `useCallback` Dependencies
 
+* Since `useCallback` saves an `Object`, we can't update the function if any state change happens. 
+* Then we can use the dependency array or the second param. We can specify which variable may change, so that `useCallback` executes in that manner.
+
+## 156 - Understanding State Scheduling & Batching
+
+* When we create a state and React execute the component, it saves the state.
+* Even if we specify a `setState`, React doesn't exxecute it instantly.
+* React schedule a list of state update and acts accordingly. Which means, every change will be working one after another. 
+* 
 
 
 
