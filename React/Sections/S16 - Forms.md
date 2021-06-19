@@ -50,6 +50,15 @@
 ```
 
 
+### 205 - Custom Input Hook
+
+* Due to the multiple input checks and writing almost the same code again and again, we can create a custom hook to automate the task.
+* Our hook will get a function as a param. The function will get the entered value and do the validity check.
+* Then we'll declare states, check validity, update states and return an object where we'll send all the data we'll need while using the hook.
+* While using, we store the hook in an destructured object with alias. Then on the right side, inside the `()`, we'll pass the validity checking method. 
+* We'll create each variable to use the custom hook for multiple input elements.
+* 
+
 
 
 
