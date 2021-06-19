@@ -37,8 +37,17 @@
 
 * Using touched to handle the form submission is a bit more better and convenient. 
 
+### 204 - Managing the overall form validity
 
+* The most efficient way to find the overall validity is to set a variable, initially as `false`. 
+* Then check all the inputs if they aren't empty. If all are filled, set the variable as `true`.
 
+```js
+  // IF name isn't empty, form is valid, otherwise not
+  
+  let formIsValid = false;
+  if (nameIsValid) formIsValid = true;
+```
 
 
 
