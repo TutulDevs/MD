@@ -57,10 +57,10 @@
 * Then we'll declare states, check validity, update states and return an object where we'll send all the data we'll need while using the hook.
 * While using, we store the hook in an destructured object with alias. Then on the right side, inside the `()`, we'll pass the validity checking method. 
 * We'll create each variable to use the custom hook for multiple input elements.
-* 
 
 
+### 210 - `useReducer` 
 
-
-
+* We can try using `useReducer()` in our input hook if there's multiple data needed to be changed. 
+* We can try third-party library, like, Formik. 
 
