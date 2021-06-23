@@ -2,3 +2,5 @@
 
 * Added Tailwind CSS in CRA.
 * Added basic HeaderButton.
+* Added Single Meals with Form. 
+* Added Modal into Cart.
