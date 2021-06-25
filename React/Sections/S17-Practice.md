@@ -7,3 +7,6 @@
 * Using Context to add meals into the cart. 
 * Displayed items with total price and button in the cart.
 * Get to work on the updating the same item for more.
+* Added add item function on the cart '+' button. It's multiplying tho.
+* Fixed the problem of adding item on cart. It's now increamenting by 1. Great! 
+* 
