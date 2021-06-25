@@ -9,4 +9,5 @@
 * Get to work on the updating the same item for more.
 * Added add item function on the cart '+' button. It's multiplying tho.
 * Fixed the problem of adding item on cart. It's now increamenting by 1. Great! 
-* 
+* Added Axios to get data.
+* Fetched meals from FB with loading & error state.
