@@ -11,3 +11,5 @@
 * Fixed the problem of adding item on cart. It's now increamenting by 1. Great! 
 * Added Axios to get data.
 * Fetched meals from FB with loading & error state.
+* Added checkout form to send data to FB.
+* Created an Input component.
