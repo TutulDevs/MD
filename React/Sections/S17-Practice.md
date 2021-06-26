@@ -13,3 +13,7 @@
 * Fetched meals from FB with loading & error state.
 * Added checkout form to send data to FB.
 * Created an Input component.
+* Sent data to FB. Added a clear cart button.
+* Did some responsiveness work. 
+* I think it's done by now.
+* It can be developed by auth, displaying ordered data and route.
