@@ -75,26 +75,17 @@
 
 ### 237 - multiple state properties
 
-* 
+* When working with multiple state properties or multiple properties in the `initState` obj, remember:
 
+> returning state can't update other state if it's not declared in the returning obj.
 
+* Which means, when you return an obj, declare all the state properties. 
 
+### 238 - How to work w/ Redux state correctly?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* You should NEVER EVER mutate the existing state, never change it. 
+* Never change the original state you're getting.
+* Instead, always override it by returning a brand new state obj.
+* It is because, obj & arr are reference values in JS.
 
 
