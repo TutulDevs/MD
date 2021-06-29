@@ -66,7 +66,32 @@
 
 * For dispatching, use `useDispatch`.
 * Then pass types to the dispatch on trigger to send request updating on the store.
+
+
+### 236 - attatching payloads
+
+* We can send payload like a value or an obj.
+* For value only, we need to access it in the reducer as a property of `action` obj.
+
+### 237 - multiple state properties
+
 * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
