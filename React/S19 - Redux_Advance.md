@@ -30,6 +30,46 @@
 	- prefer action creators or components
 	- never use reducers
 
+### 255 - using `useEffect` w/ redux
+
+* We can use `useEffect` to update the async task, like updating the FB.
+* We can use `method: 'PUT'` on fetch to POST data but w/o creating a new item. PUT will update the existing data.
+* In this way, first it updates the frontend and then the backend.
+
+### 256 - problem of `useEffect`
+
+* `useEffect` will execute on the initial render which may have an empty state.
+* Then it'll send the empty state to FB. 
+* It's gonna be solved in the next lectures.
+
+
+### 258 - using action creator thunk
+
+* **Thunk** is a function that delays an action until later, until something is finished.
+* An action creator fn that does NOT return the action itself but another function which eventually returns the action.
+* We can use a function that returns another function as an action. Redux Toolkit understands it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
