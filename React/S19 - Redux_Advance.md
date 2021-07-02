@@ -50,6 +50,12 @@
 * We can use a function that returns another function as an action. Redux Toolkit understands it.
 
 
+### 261 - fetching data 
+
+* When fetching an array from a db, make sure if it gets undefined. In that cases, use the logical OR `||` to add an empty array. 
+* This will help to not throw an error if you use any array method anywhere on the code.
+
+
 
 
 
